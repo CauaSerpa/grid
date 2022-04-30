@@ -30,8 +30,8 @@ body
     gap: 20px;
     grid-template-areas:
     "um um dois"
-    "tres quatro dois"
-    "cinco quatro seis";
+    "tres quatro quatro"
+    "cinco cinco seis";
 }
 .item-1
 {
@@ -60,7 +60,7 @@ body
 @media screen and (max-width: 768px) {
     body
     {
-        height: 108vh;
+        height: 100vh;
     }
     .grid-container
     {
